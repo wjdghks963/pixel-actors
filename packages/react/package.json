@@ -2,6 +2,14 @@
   "name": "@wjdghks963/pixel-actors-react",
   "version": "0.1.1",
   "description": "React pixel animation actor components",
+  "homepage": "https://wjdghks963.github.io/pixel-actors/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjdghks963/pixel-actors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wjdghks963/pixel-actors/issues"
+  },
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",

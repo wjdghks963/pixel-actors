@@ -2,6 +2,11 @@
 
 Code-based pixel animation library for React.
 
+- Live Demo: https://wjdghks963.github.io/pixel-actors/
+- GitHub: https://github.com/wjdghks963/pixel-actors
+- npm (react): https://www.npmjs.com/package/@wjdghks963/pixel-actors-react
+- npm (core): https://www.npmjs.com/package/@wjdghks963/pixel-actors-core
+
 - `@wjdghks963/pixel-actors-core`: sprite/frame/keyframes engine
 - `@wjdghks963/pixel-actors-react`: ready-to-use actors + React APIs
 
@@ -29,7 +34,8 @@ npm run build
 npm run dev:demo
 ```
 
-데모: `http://localhost:3000`
+로컬 데모: `http://localhost:3000`
+배포 데모: `https://wjdghks963.github.io/pixel-actors/`
 
 ### 3) 기본 사용법
 
@@ -197,7 +203,8 @@ npm run build
 npm run dev:demo
 ```
 
-Demo: `http://localhost:3000`
+Local demo: `http://localhost:3000`
+Hosted demo: `https://wjdghks963.github.io/pixel-actors/`
 
 ### 3) Basic usage
 

@@ -2,6 +2,10 @@
 
 Core engine for Pixel Actors.
 
+- Live Demo: https://wjdghks963.github.io/pixel-actors/
+- GitHub: https://github.com/wjdghks963/pixel-actors
+- Full Docs: https://github.com/wjdghks963/pixel-actors#readme
+
 - Sprite/frame types
 - frame-to-box-shadow conversion
 - keyframes generation

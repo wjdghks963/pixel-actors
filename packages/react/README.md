@@ -2,6 +2,10 @@
 
 React pixel animation components for Pixel Actors.
 
+- Live Demo: https://wjdghks963.github.io/pixel-actors/
+- GitHub: https://github.com/wjdghks963/pixel-actors
+- Full Docs: https://github.com/wjdghks963/pixel-actors#readme
+
 ## Install
 
 ```bash
