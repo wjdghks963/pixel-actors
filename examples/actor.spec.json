@@ -1,0 +1,32 @@
+{
+  "name": "MyCustomFox",
+  "width": 8,
+  "height": 8,
+  "palette": {
+    "o": "#fb923c",
+    "w": "#ffffff",
+    "b": "#111827"
+  },
+  "frames": [
+    [
+      "..oooo..",
+      ".oowwoo.",
+      "oowbbwwo",
+      "oowwwwwo",
+      "oowwwwwo",
+      "..oww...",
+      ".o....o.",
+      "........"
+    ],
+    [
+      "..oooo..",
+      ".oowwoo.",
+      "oowbbwwo",
+      "oowwwwwo",
+      "oowwwwwo",
+      "...ww...",
+      ".o....o.",
+      "........"
+    ]
+  ]
+}

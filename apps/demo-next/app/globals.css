@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Nunito:wght@500;700&display=swap");
+
+:root {
+  --bg-top: #fff8e8;
+  --bg-bottom: #e7f8ff;
+  --ink: #273043;
+  --muted: #5a6578;
+  --card: #ffffffd9;
+  --stroke: #d5d8e2;
+  --mint: #baf4dd;
+  --peach: #ffd7bf;
+  --sky: #cfe9ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Nunito", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 15% 20%, #ffffffaa 0 140px, transparent 160px),
+    radial-gradient(circle at 85% 12%, #ffffff99 0 120px, transparent 160px),
+    linear-gradient(170deg, var(--bg-top), var(--bg-bottom));
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.demo-shell {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 36px 20px 56px;
+}
+
+.hero {
+  border: 1px solid #fff;
+  border-radius: 28px;
+  padding: 26px 24px;
+  background: linear-gradient(145deg, #fff4d6, #ffe1cc 45%, #d7f5ff);
+  box-shadow: 0 16px 38px #1f293720;
+  margin-bottom: 18px;
+}
+
+.hero-badge {
+  display: inline-block;
+  font-family: "Baloo 2", "Nunito", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #2755a3;
+  background: #ffffffb8;
+  border: 1px solid #ffffff;
+  border-radius: 999px;
+  padding: 5px 12px;
+  margin-bottom: 12px;
+  font-size: 0.82rem;
+}
+
+.hero h1 {
+  font-family: "Baloo 2", "Nunito", sans-serif;
+  font-size: clamp(1.9rem, 3.8vw, 2.8rem);
+  line-height: 1.1;
+}
+
+.hero-copy {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: clamp(0.97rem, 2.2vw, 1.12rem);
+}
+
+.pet-zone {
+  border: 1px solid #d6e7ff;
+  border-radius: 20px;
+  padding: 14px;
+  background: linear-gradient(160deg, #eaf3ff, #f3f9ff 52%, #f7f1ff);
+  margin-bottom: 16px;
+}
+
+.pet-zone h2 {
+  font-family: "Baloo 2", "Nunito", sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.pet-zone p {
+  color: #4c607f;
+  margin-bottom: 8px;
+  font-size: 0.92rem;
+}
+
+.pet-arena {
+  border-radius: 14px;
+  border: 1px dashed #bdd6ff;
+  background:
+    radial-gradient(circle at 14% 18%, #ffffffbb 0 30px, transparent 58px),
+    linear-gradient(180deg, #f9fcff, #edf5ff);
+}
+
+.actor-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(178px, 1fr));
+}
+
+.actor-card {
+  border: 1px solid var(--stroke);
+  border-radius: 22px;
+  padding: 14px;
+  background: var(--card);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 10px 24px #1e293b1f;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  animation: float-in 420ms ease both;
+}
+
+.actor-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 28px #1e293b2b;
+}
+
+.actor-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.actor-meta h2 {
+  font-family: "Baloo 2", "Nunito", sans-serif;
+  font-size: 1.15rem;
+}
+
+.actor-meta span {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #35507b;
+  background: #eef4ff;
+  border: 1px solid #d5e5ff;
+  border-radius: 999px;
+  padding: 4px 8px;
+}
+
+.actor-stage {
+  min-height: 126px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background:
+    linear-gradient(135deg, #ffffff, #ffffff9c),
+    repeating-linear-gradient(0deg, #f3f7ff 0 9px, #ebf2ff 9px 18px);
+  border: 1px dashed #ceddf7;
+}
+
+.actor-card:nth-child(1) .actor-stage {
+  background:
+    radial-gradient(circle at 25% 18%, #ffefc6 0 34px, transparent 48px),
+    linear-gradient(135deg, #eef5ff, #deecff);
+}
+
+.actor-card:nth-child(2) .actor-stage {
+  background: linear-gradient(160deg, #fff6e8, #ffe4d6);
+}
+
+.actor-card:nth-child(3) .actor-stage {
+  background: linear-gradient(160deg, #fffde8, #fff3c4);
+}
+
+.actor-card:nth-child(4) .actor-stage {
+  background: linear-gradient(160deg, #ecfbff, #dcf2ff);
+}
+
+.actor-card:nth-child(5) .actor-stage {
+  background: linear-gradient(160deg, #fff4f7, #eef0ff);
+}
+
+.actor-card:nth-child(6) .actor-stage {
+  background:
+    radial-gradient(circle at 72% 24%, #fff8bf 0 34px, transparent 52px),
+    linear-gradient(160deg, #e9fff5, #dcf0ff 60%, #ffe7f5);
+}
+
+.actor-card:nth-child(7) .actor-stage {
+  background: linear-gradient(160deg, #fff2f8, #ffe6ef 55%, #e8f4ff);
+}
+
+.actor-card:nth-child(8) .actor-stage {
+  background:
+    radial-gradient(circle at 35% 22%, #cffafe 0 24px, transparent 42px),
+    linear-gradient(160deg, #e8f2ff, #e2ecff 55%, #f0f6ff);
+}
+
+.actor-card:nth-child(9) .actor-stage {
+  background:
+    radial-gradient(circle at 68% 28%, #fde68a 0 20px, transparent 44px),
+    linear-gradient(160deg, #f0fff4, #dbffe8 52%, #ecfff8);
+}
+
+.dragon-stage {
+  position: relative;
+  overflow: hidden;
+}
+
+.dragon-stage::after {
+  content: "";
+  position: absolute;
+  inset: auto -20% -35% -20%;
+  height: 56%;
+  background: radial-gradient(ellipse at center, #7dd3fc55 0%, #7dd3fc00 70%);
+  pointer-events: none;
+}
+
+.dragon-stage > span:not(.dragon-flame) {
+  filter: drop-shadow(0 8px 14px #0ea5e966);
+}
+
+.dragon-stage > .dragon-flame {
+  position: absolute;
+  right: 10px;
+  top: 52%;
+  width: 34px;
+  height: 22px;
+  border-radius: 70% 30% 55% 45%;
+  transform: translateY(-50%) rotate(-6deg);
+  background:
+    radial-gradient(circle at 28% 50%, #fff7c2 0 18%, #ffd76a 38%, #fb923c 68%, #fb7185 100%);
+  filter: blur(0.2px) drop-shadow(0 0 8px #fb923c88);
+  animation: flame-flicker 260ms steps(2, end) infinite;
+  pointer-events: none;
+  z-index: 2;
+}
+
+@keyframes float-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes flame-flicker {
+  0% {
+    opacity: 0.9;
+    transform: translateY(-50%) scaleX(0.92) scaleY(0.9) rotate(-8deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-50%) scaleX(1.1) scaleY(1.08) rotate(-3deg);
+  }
+  100% {
+    opacity: 0.82;
+    transform: translateY(-50%) scaleX(0.88) scaleY(0.92) rotate(-10deg);
+  }
+}
+
+@media (max-width: 640px) {
+  .demo-shell {
+    padding: 22px 14px 32px;
+  }
+
+  .hero {
+    border-radius: 22px;
+    padding: 20px 16px;
+  }
+
+  .actor-card {
+    border-radius: 18px;
+  }
+}

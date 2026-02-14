@@ -1,0 +1,24 @@
+{
+  "name": "pixel-actors",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Code-based pixel animation actor library for React",
+  "packageManager": "npm@10.9.3",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build:packages",
+    "build:packages": "npm run build -w @pixel-actors/core && npm run build -w @pixel-actors/react",
+    "dev:demo": "npm run build:packages && npm run dev -w @pixel-actors/demo-next",
+    "build:demo": "npm run build:packages && npm run build -w @pixel-actors/demo-next",
+    "start:demo": "npm run start -w @pixel-actors/demo-next",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "generate:actor": "node scripts/pixel-spec-to-sprite.mjs",
+    "generate:png": "node scripts/png-to-sprite.mjs"
+  },
+  "devDependencies": {
+    "pngjs": "^7.0.0"
+  }
+}
