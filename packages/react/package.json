@@ -1,6 +1,6 @@
 {
   "name": "@wjdghks963/pixel-actors-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React pixel animation actor components",
   "homepage": "https://wjdghks963.github.io/pixel-actors/",
   "repository": {
@@ -33,7 +33,7 @@
     "react-dom": ">=18"
   },
   "dependencies": {
-    "@wjdghks963/pixel-actors-core": "0.1.1"
+    "@wjdghks963/pixel-actors-core": "0.1.2"
   },
   "devDependencies": {
     "@types/react": "^18.3.12",
