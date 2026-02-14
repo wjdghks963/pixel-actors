@@ -1,5 +1,5 @@
-import type { Sprite } from "@pixel-actors/core";
-import { createActorComponent } from "@pixel-actors/react";
+import type { Sprite } from "@wjdghks963/pixel-actors-core";
+import { createActorComponent } from "@wjdghks963/pixel-actors-react";
 
 const palette = {
   "a": "#302a34",

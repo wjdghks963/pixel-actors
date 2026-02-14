@@ -1,4 +1,4 @@
-import type { Frame, Sprite } from "@pixel-actors/core";
+import type { Frame, Sprite } from "@wjdghks963/pixel-actors-core";
 
 function frameFromGrid(rows: string[], palette: Record<string, string>): Frame {
   const frame: Frame = [];

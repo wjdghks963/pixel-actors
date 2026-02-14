@@ -2,8 +2,8 @@
 
 Code-based pixel animation library for React.
 
-- `@pixel-actors/core`: sprite/frame/keyframes engine
-- `@pixel-actors/react`: ready-to-use actors + React APIs
+- `@wjdghks963/pixel-actors-core`: sprite/frame/keyframes engine
+- `@wjdghks963/pixel-actors-react`: ready-to-use actors + React APIs
 
 ---
 
@@ -34,7 +34,7 @@ npm run dev:demo
 ### 3) 기본 사용법
 
 ```tsx
-import { Bat } from "@pixel-actors/react";
+import { Bat } from "@wjdghks963/pixel-actors-react";
 
 export default function Example() {
   return <Bat size={96} fps={12} />;
@@ -72,7 +72,7 @@ export default function Example() {
 ### 5) 모션 예시
 
 ```tsx
-import { Dragon } from "@pixel-actors/react";
+import { Dragon } from "@wjdghks963/pixel-actors-react";
 
 <Dragon
   size={132}
@@ -88,7 +88,7 @@ import { Dragon } from "@pixel-actors/react";
 ### 6) 자동 배회(옛날 데스크탑 펫 스타일)
 
 ```tsx
-import { ActorPet, Dragon } from "@pixel-actors/react";
+import { ActorPet, Dragon } from "@wjdghks963/pixel-actors-react";
 
 <ActorPet
   Actor={Dragon}
@@ -156,8 +156,8 @@ npm run generate:png -- ./assets/bat-sheet.png --name BatCustom --frame-width 16
 6. publish
 
 ```bash
-npm publish --access public -w @pixel-actors/core
-npm publish --access public -w @pixel-actors/react
+npm publish --access public -w @wjdghks963/pixel-actors-core
+npm publish --access public -w @wjdghks963/pixel-actors-react
 ```
 
 ---
@@ -189,7 +189,7 @@ Demo: `http://localhost:3000`
 ### 3) Basic usage
 
 ```tsx
-import { Bat } from "@pixel-actors/react";
+import { Bat } from "@wjdghks963/pixel-actors-react";
 
 export default function Example() {
   return <Bat size={96} fps={12} />;
@@ -199,7 +199,7 @@ export default function Example() {
 ### 4) Motion usage
 
 ```tsx
-import { Dragon } from "@pixel-actors/react";
+import { Dragon } from "@wjdghks963/pixel-actors-react";
 
 <Dragon
   size={132}
@@ -215,7 +215,7 @@ import { Dragon } from "@pixel-actors/react";
 ### 5) Autonomous pet mode
 
 ```tsx
-import { ActorPet, Dragon } from "@pixel-actors/react";
+import { ActorPet, Dragon } from "@wjdghks963/pixel-actors-react";
 
 <ActorPet
   Actor={Dragon}
@@ -269,6 +269,6 @@ Options:
 6. Publish
 
 ```bash
-npm publish --access public -w @pixel-actors/core
-npm publish --access public -w @pixel-actors/react
+npm publish --access public -w @wjdghks963/pixel-actors-core
+npm publish --access public -w @wjdghks963/pixel-actors-react
 ```

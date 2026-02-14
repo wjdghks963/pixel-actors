@@ -1,5 +1,5 @@
 {
-  "name": "@pixel-actors/react",
+  "name": "@wjdghks963/pixel-actors-react",
   "version": "0.1.0",
   "description": "React pixel animation actor components",
   "main": "dist/index.cjs",
@@ -25,7 +25,7 @@
     "react-dom": ">=18"
   },
   "dependencies": {
-    "@pixel-actors/core": "0.1.0"
+    "@wjdghks963/pixel-actors-core": "0.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.12",

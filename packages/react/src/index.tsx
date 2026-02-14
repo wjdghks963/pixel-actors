@@ -6,7 +6,7 @@ import {
   frameToBoxShadow,
   spriteToKeyframes,
   type Sprite
-} from "@pixel-actors/core";
+} from "@wjdghks963/pixel-actors-core";
 import { useEffect, useRef } from "react";
 import type { CSSProperties, HTMLAttributes } from "react";
 import {
@@ -336,4 +336,4 @@ export {
   roboCatSprite,
   slimeMageSprite
 };
-export type { Sprite } from "@pixel-actors/core";
+export type { Sprite } from "@wjdghks963/pixel-actors-core";

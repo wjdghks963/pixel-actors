@@ -2,10 +2,10 @@
 
 ## 0. 현재 상태 (완료)
 - 모노레포 구조 생성: `packages/core`, `packages/react`, `apps/demo-next`
-- `@pixel-actors/core`:
+- `@wjdghks963/pixel-actors-core`:
   - `Pixel/Frame/Sprite` 타입
   - `frameToBoxShadow`, `spriteToKeyframes`, `createHash`, `clampFps`
-- `@pixel-actors/react`:
+- `@wjdghks963/pixel-actors-react`:
   - `createActorComponent`
   - SSR-safe 스타일 주입(`useEffect`)
   - 기본 actor 5개(Bat, Fire, Coin, Star, Ghost)
@@ -41,8 +41,8 @@ npm run start:demo
 - README 사용 예시/Props 표 정리
 - CHANGELOG 작성
 - `npm pack --workspaces`로 산출물 확인
-- `npm publish --access public -w @pixel-actors/core`
-- `npm publish --access public -w @pixel-actors/react`
+- `npm publish --access public -w @wjdghks963/pixel-actors-core`
+- `npm publish --access public -w @wjdghks963/pixel-actors-react`
 
 ## 4. 다음 우선 작업
 1. 테스트 추가

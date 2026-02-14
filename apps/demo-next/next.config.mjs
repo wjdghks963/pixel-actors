@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ["@pixel-actors/core", "@pixel-actors/react"]
+  transpilePackages: ["@wjdghks963/pixel-actors-core", "@wjdghks963/pixel-actors-react"]
 };
 
 export default nextConfig;

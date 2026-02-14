@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "npm run build:packages",
-    "build:packages": "npm run build -w @pixel-actors/core && npm run build -w @pixel-actors/react",
+    "build:packages": "npm run build -w @wjdghks963/pixel-actors-core && npm run build -w @wjdghks963/pixel-actors-react",
     "dev:demo": "npm run build:packages && npm run dev -w @pixel-actors/demo-next",
     "build:demo": "npm run build:packages && npm run build -w @pixel-actors/demo-next",
     "start:demo": "npm run start -w @pixel-actors/demo-next",

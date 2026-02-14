@@ -11,7 +11,7 @@ import {
   RoboCat,
   SlimeMage,
   Star
-} from "@pixel-actors/react";
+} from "@wjdghks963/pixel-actors-react";
 import { Cat } from "./generated/Cat";
 
 export default function HomePage() {

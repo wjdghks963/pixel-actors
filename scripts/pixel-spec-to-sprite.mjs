@@ -79,8 +79,8 @@ const framesLiteral = frames
   .map((frame) => `  [\n${frame.map((row) => `    "${row}"`).join(",\n")}\n  ]`)
   .join(",\n");
 
-const generated = `import type { Sprite } from "@pixel-actors/core";
-import { createActorComponent } from "@pixel-actors/react";
+const generated = `import type { Sprite } from "@wjdghks963/pixel-actors-core";
+import { createActorComponent } from "@wjdghks963/pixel-actors-react";
 
 const palette = ${paletteObj} as const;
 
