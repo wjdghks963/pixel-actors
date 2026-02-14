@@ -1,6 +1,6 @@
 {
   "name": "@wjdghks963/pixel-actors-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Core rendering engine for pixel actors",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
