@@ -160,6 +160,19 @@ npm publish --access public -w @wjdghks963/pixel-actors-core
 npm publish --access public -w @wjdghks963/pixel-actors-react
 ```
 
+### 11) GitHub Pages 데모 배포
+
+이 저장소에는 GitHub Pages 자동 배포 워크플로가 포함되어 있습니다.
+
+- 워크플로 파일: `.github/workflows/deploy-pages.yml`
+- 트리거: `main` 브랜치 push 또는 수동 실행
+- 산출물: `apps/demo-next/out` (Next static export)
+
+GitHub 설정:
+1. Repository `Settings` -> `Pages`
+2. `Build and deployment`의 `Source`를 `GitHub Actions`로 설정
+3. `main`에 push하면 자동 배포
+
 ---
 
 ## EN
@@ -272,3 +285,16 @@ Options:
 npm publish --access public -w @wjdghks963/pixel-actors-core
 npm publish --access public -w @wjdghks963/pixel-actors-react
 ```
+
+### 10) Deploy demo with GitHub Pages
+
+This repo includes automated GitHub Pages deployment.
+
+- Workflow: `.github/workflows/deploy-pages.yml`
+- Trigger: push to `main` (or manual dispatch)
+- Artifact path: `apps/demo-next/out` (Next static export)
+
+GitHub setup:
+1. Open repository `Settings` -> `Pages`
+2. Set `Source` to `GitHub Actions`
+3. Push to `main` to deploy automatically
